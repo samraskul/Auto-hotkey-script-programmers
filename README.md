@@ -24,7 +24,7 @@ Caps lock + n => Esc
 <br>
 <br>
 
-For linux programmers:
+For Linux and Mac programmers:
 
 https://github.com/madslundt/keybindings
 
