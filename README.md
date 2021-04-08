@@ -21,6 +21,10 @@ Caps lock + h => Backspace
 <br>
 Caps lock + n => Esc
 <br>
+Shift + Caps lock => turn on Caps lock
+<br>
+Caps lock => turn off Caps lock
+<br>
 <br>
 <br>
 
