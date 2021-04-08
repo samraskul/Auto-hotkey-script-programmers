@@ -20,3 +20,12 @@ Caps lock + u => home
 Caps lock + h => Backspace
 <br>
 Caps lock + n => Esc
+<br>
+<br>
+<br>
+
+For linux programmers:
+
+https://github.com/madslundt/keybindings
+
+
