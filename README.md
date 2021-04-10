@@ -33,6 +33,8 @@ change capslock to hyper with xmodmap:
 <br>
 xmodmap -e "keysym Caps_Lock = Hyper_L"
 <br>
+or other solutions
+<br>
 delete logout shortcut with Super+l in the keyboard shortcut settings
 <br><br>
 install autokey:
