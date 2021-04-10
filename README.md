@@ -29,6 +29,12 @@ Caps lock => turn off Caps lock
 <br>
 For Linux programmers:
 <br>
+disable capslock with xmodmap:
+<br>
+xmodmap -e "keysym Caps_Lock = Hyper_L"
+<br><br>
+install autokey:
+<br>
 extract autokey.zip in: /home/{your_username}/.config/autokey
 <br><br><br>
 
