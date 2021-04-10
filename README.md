@@ -29,9 +29,11 @@ Caps lock => turn off Caps lock
 <br>
 For Linux programmers:
 <br>
-disable capslock with xmodmap:
+change capslock to hyper with xmodmap:
 <br>
 xmodmap -e "keysym Caps_Lock = Hyper_L"
+<br>
+delete logout shortcut with Super+l in the keyboard shortcut settings
 <br><br>
 install autokey:
 <br>
