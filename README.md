@@ -39,7 +39,12 @@ delete logout shortcut with Super+l in the keyboard shortcut settings
 <br><br>
 install autokey:
 <br>
-extract autokey.zip in: /home/{your_username}/.config/autokey
+extract autokey.zip in: 
+<br>
+/home/{your_username}/.config/autokey
+<br>
+add autokey to startup from:
+autokey Menu->Edit->preferences->Automatically start autokey at login 
 <br><br><br>
 
 Mac programmers:<br>
