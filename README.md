@@ -36,6 +36,8 @@ xmodmap -e "keysym Caps_Lock = Hyper_L"
 or other solutions
 <br>
 delete logout shortcut with Super+l in the keyboard shortcut settings
+<br>
+for example for kde: https://stackoverflow.com/questions/211043/disable-global-ctrl-alt-l-hotkey-in-kde/211059#211059
 <br><br>
 install autokey:
 <br>
