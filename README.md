@@ -27,9 +27,12 @@ Caps lock => turn off Caps lock
 <br>
 <br>
 <br>
+For Linux programmers:
 
-For Linux and Mac programmers:
+Mac programmers:<br>
+extract autokey.zip in: /home/{your_username}/.config/autokey
 
+<br><br><br>
 https://github.com/madslundt/keybindings
 
 
