@@ -52,4 +52,13 @@ autokey Menu->Edit->preferences->Automatically start autokey at login
 Mac programmers:<br>
 https://github.com/madslundt/keybindings
 
+Or
+
+for mac put this file in .config/karabiner/karabiner.json
+
+
+
+
+
+
 
