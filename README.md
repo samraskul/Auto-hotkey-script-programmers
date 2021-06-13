@@ -56,7 +56,9 @@ Or
 
 for mac put this file in .config/karabiner/karabiner.json
 
+if you want to change Command with Ctrl, copy and paste this code:
 
+https://github.com/samraskul/Auto-hotkey-script-programmers/issues/2
 
 
 
