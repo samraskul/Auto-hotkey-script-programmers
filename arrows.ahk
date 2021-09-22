@@ -31,6 +31,18 @@ capslock & n::
 Send,{esc}
 return
 
+capslock & m::
+Send,=
+return
+
+capslock & "::
+Send,"
+return
+
+capslock & ,::
+Send,-
+return
+
 capslock & space::
 Send,^{space}
 return
@@ -49,83 +61,3 @@ return
 ^capslock::
 SetCapsLockState, On
 return
-
-;space::
-;Send,{Numpad7}
-;return
-;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp
-
-;h::
-;send {s down}
-;sleep 5
-;send {s up}
-;sleep 30
-;send {s down}
-;sleep 5
-;send {s up}
-;sleep 30
-;send {f down}
-;sleep 5
-;send {f up}
-;sleep 30
-;send {j down}
-;sleep 5
-;send {j up}
-;return
-
-;SC027::
-;send {f down}
-;sleep 5
-;send {f up}
-;sleep 30
-;send {f down}
-;sleep 5
-;send {f up}
-;sleep 30
-;send {s down}
-;sleep 5
-;send {s up}
-;sleep 30
-;send {j down}
-;sleep 5
-;send {j up}
-;return
-
-;h::
-;send {s down}
-;sleep 1
-;send {s up}
-;sleep 1
-;send {s down}
-;sleep 1
-;send {s up}
-;sleep 1
-;send {u down}
-;sleep 1
-;send {u up}
-;return
-
-;SC027::
-;send {f down}
-;sleep 1
-;send {f up}
-;sleep 1
-;send {f down}
-;sleep 1
-;send {f up}
-;sleep 1
-;send {u down}
-;sleep 1
-;send {u up}
-;return
-
-;toggle = 0
-;#MaxThreadsPerHotkey 2
-;F9::
-;    Toggle := !Toggle
-;     While Toggle{
-;        click
-;        sleep 100
-;    }
-;return
-
