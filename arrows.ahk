@@ -59,10 +59,12 @@ return
 $~*Capslock::
 return
 
-SC15D::SendInput, {Ctrl Down}
+;; remap application key to ctrl:
+SC15D::SendInput, {Ctrl Down}   
 SC15D Up::SendInput, {Ctrl Up}
 
-;^a::                                ;Change this hotkey to anything you want it to be.
+;; left click 50 times when press ctrl + a:
+;^a::
 ; Loop, 50
  ;{
  ;   click
