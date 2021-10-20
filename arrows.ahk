@@ -1,5 +1,6 @@
-capslock & j::
 SetCapsLockState, Off
+
+capslock & j::
 Send,{left}
 return
 
@@ -35,7 +36,7 @@ capslock & m::
 Send,=
 return
 
-capslock & "::
+capslock & '::
 Send,"
 return
 
@@ -58,6 +59,12 @@ return
 $~*Capslock::
 return
 
-^capslock::
-SetCapsLockState, On
-return
+SC15D::SendInput, {Ctrl Down}
+SC15D Up::SendInput, {Ctrl Up}
+
+;^a::                                ;Change this hotkey to anything you want it to be.
+; Loop, 50
+ ;{
+ ;   click
+ ;    Sleep, 10
+; }
