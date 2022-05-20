@@ -47,8 +47,17 @@ extract autokey.zip in:
 <br>
 add autokey to startup from:
 autokey Menu->Edit->preferences->Automatically start autokey at login 
-<br><br><br>
 
+make a file: mystartup.sh in /home/mystartup.sh<br>
+```
+#!/bin/bash
+/usr/bin/xmodmap -e "keysym Caps_Lock = Hyper_L"
+```
+save it and in the windows menu type: <br>
+`autostart`<br>
+click on the `add` > `add login script` and add mystartup.sh<br>
+
+<br><br><br>
 Mac programmers:<br>
 https://github.com/madslundt/keybindings
 
