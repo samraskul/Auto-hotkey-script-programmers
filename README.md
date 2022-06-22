@@ -56,6 +56,21 @@ make a file: mystartup.sh in /home/mystartup.sh<br>
 save it and in the windows menu type: <br>
 `autostart`<br>
 click on the `add` > `add login script` and add mystartup.sh<br>
+or add it to .bashrc file<br><br>
+ 
+for mouse wheel speed and back and forward button:
+guys, Please IGNORE this reply, there is something wrong with it.
+xev didn’t work for my mouse, I used xinput to find out the device ID of my mouse first, and then use "xinput test 12 (mouse ID) to find out that the side buttons are actually button 8 and 9.
+I have previously installed imwheel to adjust mouse scrolling speed already, I found the script in other forum and added it to startup application.
+http://www.nicknorton.net/mousewheel.sh 80
+i simply added these 2 lines to the script.
+```
+None, Button8, Alt_L|KP_Left
+None, Button9, Alt_L|KP_Right
+```
+it took me a while to figure out the Alt_L|KP_left/right bits, though. Most of the examples in imwheel file are not applicable in this case, surprisingly these buttons now work in other programs as well!
+i hope it is helpful for you guys as well.
+
 
 <br><br><br>
 Mac programmers:<br>
