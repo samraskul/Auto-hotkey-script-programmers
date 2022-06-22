@@ -69,8 +69,11 @@ None, Button8, Alt_L|KP_Left
 None, Button9, Alt_L|KP_Right
 ```
 it took me a while to figure out the Alt_L|KP_left/right bits, though. Most of the examples in imwheel file are not applicable in this case, surprisingly these buttons now work in other programs as well!
-i hope it is helpful for you guys as well.
-
+i hope it is helpful for you guys as well.<br>
+add this line to the end of the script:(edit the last line)
+```
+imwheel -kill --buttons "4 5"
+```
 
 <br><br><br>
 Mac programmers:<br>
