@@ -1,4 +1,4 @@
-SetCapsLockState, Off
+SetCapsLockState, alwaysoff
 
 capslock & j::
 Send,{left}
@@ -32,17 +32,37 @@ capslock & n::
 Send,{esc}
 return
 
-capslock & m::
-Send,=
+capslock & e::
+Send,{up}
 return
 
-capslock & '::
-Send,"
+capslock & w::
+Send,^+{left}
 return
 
-capslock & ,::
-Send,-
+capslock & r::
+Send,^+{right}
 return
+
+capslock & s::
+Send,^{left}
+return
+
+capslock & f::
+Send,^{right}
+return
+
+capslock & d::
+Send,{down}
+return
+
+;capslock & '::
+;Send,"
+;return
+
+;capslock & ,::
+;Send,-
+;return
 
 capslock & space::
 Send,^{space}
@@ -62,3 +82,55 @@ return
 AppsKey::SendInput, {Ctrl Down}
 AppsKey Up::SendInput, {Ctrl Up}
 
+; prevent capslock stay on:
+capslock & q::
+Send,q
+return
+
+capslock & a::
+Send,a
+return
+
+capslock & z::
+Send,z
+return
+
+capslock & x::
+Send,x
+return
+
+capslock & m::
+Send,m
+return
+
+capslock & .::
+Send,.
+return
+
+capslock & c::
+Send,c
+return
+
+capslock & v::
+Send,v
+return
+
+capslock & t::
+Send,t
+return
+
+capslock & g::
+Send,g
+return
+
+capslock & b::
+Send,b
+return
+
+capslock & y::
+Send,y
+return
+
+capslock & p::
+Send,p
+return
